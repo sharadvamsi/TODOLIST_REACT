@@ -1,12 +1,24 @@
-# React + Vite
+after cloning the repository from github
+open the project and navigate to project folder by using command cd TODOLIST
+now to install dependencies run command npm install.
+after that to run the application use command npm run dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+project functionalities:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Type the task you want to do in input field and click on add button to add it to list of todoitems.
+for every todoitem displayed in the ui you have 3 options as edit,delete and mark as complete
 
-## Expanding the ESLint configuration
+EDIT: click on pencil icon which is beside delete icon on todoitem which you want to edit. the text in that todoitem which transform as editable input field
+and replace the text with which you want and click on anywhere in the screen to make it change. 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+DELETE: click on delete icon on the todoitem which you want to delete.
+
+mark as complete: click on the checkbox which is beside the todoitem on which you need to mark as complete.the todoitem text will be striked when you click on that todoitem checkbox.
+
+refer to video recording provided which showcase how it works :)
+
+NOTE: after performing any action edit,delete,mark as complete click the save button to store it in localstorage so the data persists even you close the browser or reload the page.
+
+used css and media queries for styling and made tthe appliction responsive.
+used localstorage to persist data even the browser is closed or reloaded.
